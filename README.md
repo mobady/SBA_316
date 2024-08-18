@@ -1,5 +1,6 @@
 # SBA_316
-Memory Game Overviews 
+
+Memory Game Overviews :
 how to play
 1. Objective: The goal of the games is to find all the matching pairs of cards on the game board.
 2. Game Setup: . The game board consists of a grid of face-down cards.Each card has a hidden value, which could be a letter, number or image.There are an even number of cards, with each card having exactly one matching pair.
