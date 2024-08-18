@@ -50,6 +50,7 @@ function initializeGame() {
         cards.push(card);
     }
 }
+
     
 // Flip card function
 function flipCard() {
