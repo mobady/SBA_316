@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #2e3d49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card.hidden {
+    background-color: #b0bec5;
+}
+
+.card.matched {
+    background-color: #4caf50;
+    pointer-events: none;
+}
+#buttom {
+    display: flex;
+    height: 40px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset-button {
+    height: 40px;
+    width: 200px;
+    justify-content: space-around;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#login {
+    height: 40px;
+    width: 200px;
+    justify-content: space-around;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.loginCard {
+   position: relative;
+   display:grid;
+   width: 100%;
+   margin: 20px;
+   padding: 70px 30px 44px;
+   border-radius: 5px;
+   text-align: center;
+   background: #b0bec5;
+}
+.loginForm {
+    width: 100%;
+    margin: 20px;
+    display: grid;
+    gap: 16px;
+}
+#loginEmail ,#loginPassword {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+#loginSubmit {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: #2e3d49;
+    color: white;
+    border-radius: 5px;
+}
+.loginCard a {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color:#4caf50 ;
+    text-decoration: none;
+    margin-top: 10px;
+}
