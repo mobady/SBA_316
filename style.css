@@ -30,7 +30,6 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
-
 .card.hidden {
     background-color: #b0bec5;
 }
